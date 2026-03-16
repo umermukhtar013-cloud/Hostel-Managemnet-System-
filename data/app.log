@@ -1,0 +1,62 @@
+2026-03-13 04:07:47,742 - root - ERROR - Fatal error: The configured column type `text` for column `Device Name` is not compatible for editing the underlying data type `ColumnDataKind.FLOAT`.
+
+You have following options to fix this: 1) choose a compatible type 2) disable the column 3) convert the column into a compatible data type.
+Traceback (most recent call last):
+  File "C:\Users\Cheema\Desktop\HOSTELERP\app2.py", line 1457, in main
+    app.run()
+    ~~~~~~~^^
+  File "C:\Users\Cheema\Desktop\HOSTELERP\app2.py", line 722, in run
+    self.show_payments()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Cheema\Desktop\HOSTELERP\app2.py", line 946, in show_payments
+    self._display_payment_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Cheema\Desktop\HOSTELERP\app2.py", line 1007, in _display_payment_table
+    edited_payments = st.data_editor(
+        self.df_payments,
+    ...<15 lines>...
+        }
+    )
+  File "C:\Users\Cheema\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\metrics_util.py", line 532, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\Cheema\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\elements\widgets\data_editor.py", line 1080, in data_editor
+    _check_type_compatibilities(data_df, column_config_mapping, dataframe_schema)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cheema\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\elements\widgets\data_editor.py", line 606, in _check_type_compatibilities
+    raise StreamlitAPIException(
+    ...<5 lines>...
+    )
+streamlit.errors.StreamlitAPIException: The configured column type `text` for column `Device Name` is not compatible for editing the underlying data type `ColumnDataKind.FLOAT`.
+
+You have following options to fix this: 1) choose a compatible type 2) disable the column 3) convert the column into a compatible data type.
+2026-03-13 04:09:10,593 - root - ERROR - Fatal error: The configured column type `text` for column `Device Name` is not compatible for editing the underlying data type `ColumnDataKind.FLOAT`.
+
+You have following options to fix this: 1) choose a compatible type 2) disable the column 3) convert the column into a compatible data type.
+Traceback (most recent call last):
+  File "C:\Users\Cheema\Desktop\HOSTELERP\app2.py", line 1457, in main
+    app.run()
+    ~~~~~~~^^
+  File "C:\Users\Cheema\Desktop\HOSTELERP\app2.py", line 722, in run
+    self.show_payments()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Cheema\Desktop\HOSTELERP\app2.py", line 946, in show_payments
+    self._display_payment_table()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Cheema\Desktop\HOSTELERP\app2.py", line 1007, in _display_payment_table
+    edited_payments = st.data_editor(
+        self.df_payments,
+    ...<15 lines>...
+        }
+    )
+  File "C:\Users\Cheema\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\runtime\metrics_util.py", line 532, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\Cheema\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\elements\widgets\data_editor.py", line 1080, in data_editor
+    _check_type_compatibilities(data_df, column_config_mapping, dataframe_schema)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cheema\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\streamlit\elements\widgets\data_editor.py", line 606, in _check_type_compatibilities
+    raise StreamlitAPIException(
+    ...<5 lines>...
+    )
+streamlit.errors.StreamlitAPIException: The configured column type `text` for column `Device Name` is not compatible for editing the underlying data type `ColumnDataKind.FLOAT`.
+
+You have following options to fix this: 1) choose a compatible type 2) disable the column 3) convert the column into a compatible data type.
